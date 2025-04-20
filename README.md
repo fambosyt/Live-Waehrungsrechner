@@ -14,5 +14,5 @@ Ein moderner Währungsumrechner, der Live-Kurse von [ExchangeRate.host](https://
 
 1. Klone das Repository:
    ```bash
-   git clone https://github.com/deinname/waehrungsrechner.git
+   git clone https://github.com/fambosyt/waehrungsrechner.git
    cd waehrungsrechner
