@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Währungsrechner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💱 Währungsrechner</h1>
+
+    <input type="number" id="amount" placeholder="Betrag eingeben" />
+
+    <div class="selectors">
+      <select id="from"></select>
+      <span>➡️</span>
+      <select id="to"></select>
+    </div>
+
+    <button onclick="convertCurrency()">Umrechnen</button>
+
+    <div id="result">Ergebnis erscheint hier...</div>
+
+    <button class="toggle" onclick="toggleDarkMode()">🌙/☀️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
